@@ -3,6 +3,13 @@
 
 
 def solve():
+
+
+
+
+    numbers = map(int, input("Введите числа: ").split())
+    squared_numbers = list(map(lambda x: x ** 2, numbers))
+    print("Результат:", ' '.join(map(str, squared_numbers)))
 # Ниже пишите решение задачии(Обязательно поставьте четыре пробела после функции Solve())
 
 
